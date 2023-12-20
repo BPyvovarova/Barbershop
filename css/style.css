@@ -1,3 +1,76 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*------header------*/
+.header {
+  background-color: blue;
+}
+.header-link,
+.header-tel {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #ff6c00;
+}
+.header-btn {
+  color: #fff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+}
+.header-btn:hover,
+.header-btn:focus {
+  background-color: #ff6c00;
+  color: #fff;
+}
+/*-----hero-----*/
+.hero {
+  background-color: blue;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+  color: #303030;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.2px;
+}
+.hero-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.hero-title {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+.hero-after-title {
+  color: #9da4bd;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
