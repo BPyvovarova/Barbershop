@@ -1,3 +1,10 @@
+:root {
+  --first-title-color: #303030;
+  --second-title-color: #fff;
+  --first-btn-color: #303030;
+  --second-btn-color: #fff;
+  --accent-color: #ff6c00;
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -7,13 +14,19 @@ body {
 .link {
   text-decoration: none;
 }
+.pre-title {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
 /*------header------*/
 .header {
   background-color: blue;
 }
 .header-link,
 .header-tel {
-  color: #fff;
+  color: var(--second-title-color);
   font-size: 12px;
   font-weight: 600;
   line-height: normal;
@@ -21,10 +34,10 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-  color: #ff6c00;
+  color: var(--accent-color);
 }
 .header-btn {
-  color: #fff;
+  color: var(--second-btn-color);
   font-family: inherit;
   font-size: 12px;
   font-weight: 600;
@@ -34,8 +47,8 @@ body {
 }
 .header-btn:hover,
 .header-btn:focus {
-  background-color: #ff6c00;
-  color: #fff;
+  background-color: var(--accent-color);
+  color: var(--second-btn-color);
 }
 /*-----hero-----*/
 .hero {
@@ -46,24 +59,23 @@ body {
 .hero-item {
 }
 .hero-link {
-  color: #303030;
+  color: var(--first-title-color);
   font-size: 11px;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 2.2px;
 }
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
 .hero-pre-title {
   color: rgba(157, 164, 189, 0.6);
-  font-size: 11px;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: uppercase;
 }
 .hero-title {
-  color: #fff;
+  color: var(--second-title-color);
   font-family: 'Raleway', sans-serif;
   font-size: 72px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 3.6px;
@@ -73,4 +85,113 @@ body {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.36px;
+}
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+.btn {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--second-btn-color);
+}
+/*-----about-----*/
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-pre-title {
+  color: var(--first-title-color);
+}
+.about-title {
+  color: var(--first-title-color);
+}
+.about-after-title {
+  color: #555;
+}
+.about-text {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.28px;
+}
+.about-btn {
+  color: var(--first-btn-color);
+}
+/*-----prices-----*/
+.prices {
+  background-color: blue;
+}
+.prices-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+  color: var(--second-title-color);
+}
+.prices-list {
+}
+.prices-item {
+  color: #9da4bd;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+.prices-item-text {
+}
+.prices-btn {
+  color: var(--second-btn-color);
+}
+/*-----benefits-----*/
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item span {
+  color: var(--first-title-color);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  text-align: center;
+}
+.benefits-item sup {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+.benefits-item-text {
+  color: var(--first-title-color);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+.benefits-pre-title {
+  color: var(--first-title-color);
+}
+.benefits-title {
+  color: var(--first-title-color);
+}
+.benefits-after-title {
+  color: #555;
 }
