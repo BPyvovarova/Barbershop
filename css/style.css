@@ -14,6 +14,18 @@ body {
 .link {
   text-decoration: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .pre-title {
   font-size: 11px;
   font-weight: 600;
@@ -194,4 +206,114 @@ body {
 }
 .benefits-after-title {
   color: #555;
+}
+/*-----barbers-----*/
+.barbers {
+}
+.barbers-pre-title {
+  color: var(--first-title-color);
+}
+.barbers-title {
+  color: var(--first-title-color);
+}
+.barbers-list {
+}
+.barbers-item {
+}
+.barbers-item-title {
+  color: var(--first-title-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+.barbers-item-text {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+/*-----gallery-----*/
+.gallery-pre-title {
+  color: var(--first-title-color);
+}
+.pre-title {
+}
+.gallery-list {
+}
+.list {
+}
+.gallery-item {
+}
+/*-----feedback-----*/
+.feedback {
+  background-color: blue;
+}
+.feedback-title {
+  color: var(--second-title-color);
+}
+/*-----contacts-----*/
+.contacts {
+  background-color: rgb(42, 42, 83);
+}
+.contacts-title {
+  color: var(--second-title-color);
+}
+.contacts-address {
+  font-style: normal;
+}
+.contacts-list {
+}
+.contacts-address {
+  color: #9da4bd;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+.contacts-tel {
+  color: #9da4bd;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+.contacts-mail {
+  color: #9da4bd;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+  text-decoration-line: underline;
+}
+.contacts-pre-title {
+  color: var(--second-title-color);
+}
+.contacts-text {
+  color: #9da4bd;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+/*-----footer-----*/
+.footer {
+}
+.footer-text {
+  color: #9da4bd;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.2px;
+}
+.footer-list {
+}
+.footer-item {
+  color: #303030;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.2px;
 }
